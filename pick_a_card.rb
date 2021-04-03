@@ -12,6 +12,7 @@ end
 cards.shuffle!
 
 puts 'Сколько карт вам взять?'
+
 number = $stdin.gets.to_i
 
 number.times {puts cards.pop }
